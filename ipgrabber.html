@@ -247,7 +247,7 @@
         document.getElementById('ip-grab').onclick = function() {
             // Create a script element dynamically for the JSONP request
             const script = document.createElement('script');
-            script.src = "http://ipinfo.io/?format=jsonp&callback=getIP";
+            script.src = "https://ipinfo.io/?format=jsonp&callback=getIP";
             document.body.appendChild(script);
         };
 
